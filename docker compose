@@ -15,13 +15,4 @@ services:
     environment:
       - NODE_ENV=development
 
-  # 2. Production Environment
-  prod-app:
-    build:
-      context: .
-      target: prod
-    container_name: tailwind-prod
-    ports:
-      - "8080:80"
-    environment:
-      - NODE_ENV=production
+ 
