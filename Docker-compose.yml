@@ -5,7 +5,7 @@ services:
   dev-app:
     build:
       context: .
-      target: dev
+      target: Dockerfile
     container_name: tailwind-dev
     ports:
       - "3000:3000"
