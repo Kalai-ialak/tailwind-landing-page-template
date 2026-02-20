@@ -1,9 +1,10 @@
+version: '3.8'
 
-  # 2. Production Environment
+services:
+  # Intha line kandippa venum
   prod-app:
     build:
       context: .
-      target: dockerfile.prod
     container_name: tailwind-prod
     ports:
       - "8080:80"
