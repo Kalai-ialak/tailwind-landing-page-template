@@ -1,5 +1,5 @@
 # Base Image
-FROM node:20-alpine
+FROM node AS dev
 WORKDIR /app
 
 # Dependencies install panrathu
