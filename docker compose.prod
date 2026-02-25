@@ -1,7 +1,6 @@
 version: '3.8'
 
 services:
-  # Intha line kandippa venum
   prod-app:
     build:
       context: .
